@@ -1,0 +1,302 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+body{
+	background: #E0ECF8;
+}
+.container{
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+
+.logo{
+
+background: white;
+width: 100%;
+height: 200px;
+}
+.logo img{
+	margin-left: 15%;
+	margin-top: 15px;
+}
+.menu{
+	background: #C2C2C2;
+	overflow: hidden;
+	margin-left: auto;
+}
+.menu ul{
+	list-style: none;
+	overflow: hidden;
+	background: #FF0040;
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+	justify-content: center;
+	float: left;
+	margin-right: 20px;
+}
+.menu ul li{
+	float: left;
+}
+
+.menu ul li a{
+	padding: 10px 20px;
+	display: block;
+	color: white;
+	text-decoration: none;
+	font-size: 30px;
+}
+
+.menu ul li a:hover{
+	background: black;
+}
+
+.ss{
+	margin-left: 30px;
+}
+
+
+.mm:hover{
+	-moz-transform: scale(1.2) translateX(20px) skewX(15deg);
+-webkit-transform: scale(1.2) translateX(20px) skewX(15deg);
+-o-transform: scale(1.2) translateX(20px) skewX(15deg);
+-ms-transform: scale(1.2) translateX(20px) skewX(15deg);
+transform: scale(1.2) translateX(20px) skewX(15deg);
+
+-webkit-transition: all 1000ms ease-in-out;
+-moz-transition: all 1000ms ease-in-out;
+-ms-transition: all 1000ms ease-in-out;
+-o-transition: all 1000ms ease-in-out;
+transition: all 1000ms ease-in-out;
+}
+
+
+.ss:hover{
+-moz-transform: scale(1.2) translateX(20px) skewX(15deg);
+-webkit-transform: scale(1.2) translateX(20px) skewX(15deg);
+-o-transform: scale(1.2) translateX(20px) skewX(15deg);
+-ms-transform: scale(1.2) translateX(20px) skewX(15deg);
+transform: scale(1.2) translateX(20px) skewX(15deg);
+
+-webkit-transition: all 1000ms ease-in-out;
+-moz-transition: all 1000ms ease-in-out;
+-ms-transition: all 1000ms ease-in-out;
+-o-transition: all 1000ms ease-in-out;
+transition: all 1000ms ease-in-out;
+
+
+}
+
+
+
+
+
+.uno{
+font-size: cover;
+margin-left: -60px;
+}
+.mm{
+	position: absolute;
+	top: 63%;
+	left: 14%;
+	background: #FF0040;
+	width: 120px;
+	height: 50px;
+	font-size: 40px;
+
+}
+.ss{
+
+	position: absolute;
+	top: 63%;
+	left: 20%;
+	background: #FF0040;
+	width: 120px;
+	height: 50px;
+	text-align: center;
+	color: white;
+	list-style: none;
+	font-size: 40px;
+}
+.ti{
+position: absolute;
+top: 32%;
+left: 14%;
+font-size: 65px;
+}
+.t3{
+position: absolute;
+top: 50%;
+left: 14%;
+font-size: 65px;
+}
+
+.pc{
+	margin-top: 27.7%;
+	margin-left: 25%;
+
+}
+.ew{	
+	width: 70%;
+	height: 100px;
+}
+.dos{
+	display: block;
+	width: 100%;
+	background: white;
+	height: 1000px;
+
+}
+.dos img{
+margin-left: 15%;
+margin-top: 160px;
+float: left;	
+}
+.liss{
+font-size: 40px;
+position: absolute;
+margin-top: -25%;
+left: 55%;
+list-style: square;
+
+}
+.tres {
+position: absolute;
+margin-top: -30%;
+margin-left: 60%;
+font-size: 40px;
+
+}
+.pie{
+	background: black;
+	height: 500px;
+	border-top: 10px solid #FF0040;
+	color: white;
+	width: 100%;
+
+
+}
+.pie img{
+	margin-top: 100px;
+	margin-left: 15%;
+}
+.pie p{
+	margin-top: 100px;
+	margin-left: 15%;
+	font-size: 30px;
+	
+}
+a{
+	font-size: 15px;
+	color: gray;
+	border-bottom: 1px dotted white;
+}
+
+
+
+@media only screen and (max-width: 600px){
+	body{
+		background-color: lightblue;
+	}
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 610px){
+	body{
+		background-color: lightcyan;
+	}
+}
+
+
+@media only screen and ( max-width:768px ) and (min-width: 200px) {
+	/*for mobile phone*/
+	.ti, .t3, footer{
+		width: 100%;
+		font-variant: small-caps;
+		display: block;
+		font-size: 30px;
+	}
+	.t3{
+		margin-top: -15%;
+	}
+	.mm{
+	position: absolute;
+	top: 53%;
+	left: 14%;
+	background: #FF0040;
+	width: 120px;
+	height: 50px;
+	font-size: 50px;
+
+}
+.ss{
+
+	position: absolute;
+	top: 63%;
+	left: 10%;
+	background: #FF0040;
+	width: 120px;
+	height: 50px;
+	text-align: center;
+	color: white;
+	list-style: none;
+	font-size: 40px;
+}
+
+.menu{
+	background: #C2C2C2;
+	overflow: hidden;
+	margin-left: auto;
+}
+.menu ul{
+	list-style: none;
+	overflow: hidden;
+	background: #FF0040;
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+	justify-content: center;
+	float: left;
+	margin-right: 20px;
+}
+.menu ul li{
+	float: left;
+}
+
+.menu ul li a{
+	padding: 10px 20px;
+	display: block;
+	color: white;
+	text-decoration: none;
+	font-size: 30px;
+}
+
+
+.ss{
+	margin-left: 30px;
+}
+
+.dos img{
+width: 500px;
+height: 500px;
+margin-left: 15%;
+margin-top: 160px;
+float: left;	
+}
+.tres{
+	font-size: 20px;
+	margin-left: 25%;
+
+}
+
+.liss{
+	font-size: 20px;
+	margin-left: -30%;
+
+}
+}
+
